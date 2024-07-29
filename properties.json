@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Maison de ville à Paris",
+    "description": "Belle maison de ville au cœur de Paris.",
+    "price": "$500,000"
+  },
+  {
+    "name": "Appartement moderne à Lyon",
+    "description": "Appartement récemment rénové avec vue sur la ville.",
+    "price": "$300,000"
+  }
+]
