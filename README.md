@@ -1,10 +1,4 @@
-# Getting Started app for Discord
-
-This project contains a basic rock-paper-scissors-style Discord app written in JavaScript, built for the [getting started guide](https://discord.com/developers/docs/getting-started).
-
-![Demo of app](https://github.com/discord/discord-example-app/raw/main/assets/getting-started-demo.gif?raw=true)
-
-> ✨ A version of this code is also hosted **[on Glitch 🎏](https://glitch.com/~getting-started-discord)** and **[on Replit 🌀](https://replit.com/github/discord/discord-example-app)**
+# Discord BOT - EPSI PROJECT
 
 ## Project structure
 Below is a basic overview of the project structure:
@@ -26,27 +20,6 @@ Below is a basic overview of the project structure:
 └── .gitignore
 ```
 
-## Running app locally
-
-Before you start, you'll need to install [NodeJS](https://nodejs.org/en/download/) and [create a Discord app](https://discord.com/developers/applications) with the proper permissions:
-- `applications.commands`
-- `bot` (with Send Messages enabled)
-
-
-Configuring the app is covered in detail in the [getting started guide](https://discord.com/developers/docs/getting-started).
-
-### Setup project
-
-First clone the project:
-```
-git clone https://github.com/discord/discord-example-app.git
-```
-
-Then navigate to its directory and install dependencies:
-```
-cd discord-example-app
-npm install
-```
 ### Get app credentials
 
 Fetch the credentials from your app's settings and add them to a `.env` file (see `.env.sample` for an example). You'll need your app ID (`APP_ID`), bot token (`DISCORD_TOKEN`), and public key (`PUBLIC_KEY`).
